@@ -1,0 +1,425 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 43vw;
+  overflow: hidden;
+}
+
+.hire {
+  margin-top: 3vw;
+  width: 64.86vw;
+  height: 22.29vw;
+  padding-left: 4%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+  background: left no-repeat url("../assets/images/blue-text-bg.svg"), #004c55;
+  background-size: cover;
+}
+
+.hireTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 9vw;
+  padding-top: 1%;
+  color: #ffcc00;
+  font-weight: bold;
+  -moz-transform: scale(1) rotate(-3.9deg) translate(0px, 0px) skew(-4deg, 0deg);
+  -webkit-transform: scale(1) rotate(-3.9deg) translate(0px, 0px)
+    skew(-4deg, 0deg);
+  -o-transform: scale(1) rotate(-3.9deg) translate(0px, 0px) skew(-4deg, 0deg);
+  -ms-transform: scale(1) rotate(-3.9deg) translate(0px, 0px) skew(-4deg, 0deg);
+  transform: scale(1) rotate(-3.9deg) translate(0px, 0px) skew(-4deg, 0deg);
+  line-height: 0.95;
+}
+
+.hireTitle span {
+  color: #ff6600;
+}
+
+.jobs {
+  z-index: -1;
+  margin-top: -0.4vw;
+  margin-bottom: 5.5vw;
+  margin-left: 6%;
+  width: 80%;
+  height: 18.3vw;
+  padding-left: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  background: center no-repeat url("../assets/images/red-text-bg.svg"), #004c55;
+  background-size: cover;
+}
+
+.jobsTitle {
+  margin-top: -1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 6vw;
+  color: #004c55;
+  font-weight: bold;
+  -moz-transform: scale(1) rotate(-3.9deg) translate(0px, 0px) skew(-4deg, 0deg);
+  -webkit-transform: scale(1) rotate(-3.9deg) translate(0px, 0px)
+    skew(-4deg, 0deg);
+  -o-transform: scale(1) rotate(-3.9deg) translate(0px, 0px) skew(-4deg, 0deg);
+  -ms-transform: scale(1) rotate(-3.9deg) translate(0px, 0px) skew(-4deg, 0deg);
+  transform: scale(1) rotate(-3.9deg) translate(0px, 0px) skew(-4deg, 0deg);
+  line-height: 1;
+}
+
+.req {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.quote {
+  background: center no-repeat url("../assets/images/quote.svg"), #004c55;
+  background-size: cover;
+  position: absolute;
+  top: 5.9vw;
+  right: 15.1vw;
+  font-size: 5.2vw;
+  color: #004c55;
+  width: 32vw;
+  height: 8.5vw;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.reqBox {
+  margin-top: 10vw;
+  width: 85%;
+  border: 1vw solid #ffcc00;
+  border-radius: 5vw;
+  padding: 5vw 0vw 5vw 5vw;
+  font-size: 2.3vw;
+  text-transform: capitalize;
+  line-height: 1.6;
+}
+
+.sendToBox {
+  background: center no-repeat url("../assets/images/red-box.svg"), #004c55;
+  background-size: cover;
+  align-self: flex-start;
+  width: 33vw;
+  height: 14vw;
+  padding-left: 1.2vw;
+  padding-right: 1.2vw;
+  line-height: 1.3;
+  color: #000000;
+  font-size: 1.6vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  bottom: 15vw;
+  left: 2vw;
+}
+
+.sendToBox p {
+  line-height: 1.2;
+}
+
+.sendToBox a {
+  color: #ffff00;
+  text-decoration: none;
+  font-size: 2.3vw;
+  outline: none;
+}
+
+.sendToBox a:hover {
+  color: #ffcc00;
+}
+
+.bgImage {
+  position: absolute;
+  /* top: 0;
+  bottom: 0; */
+}
+
+#lighterRedTextBg {
+  width: 80%;
+  bottom: 0;
+  left: 0;
+}
+
+#man {
+  bottom: 1vw;
+  left: 33.5vw;
+  width: 15vw;
+}
+
+#woman {
+  bottom: 1vw;
+  right: 33.5vw;
+  width: 15vw;
+}
+
+#yellowTextBg {
+  width: 80%;
+  bottom: 0;
+  right: 0;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hire {
+    width: 70.86vw;
+    height: 24.29vw;
+  }
+
+  .hireTitle {
+    font-size: 9.8vw;
+  }
+
+  .jobs {
+    margin-top: -0.1vw;
+    width: 85%;
+    height: 19.2vw;
+    align-self: center;
+    margin-left: unset;
+  }
+
+  .jobsTitle {
+    font-size: 6.5vw;
+  }
+
+  .reqBox {
+    font-size: 2.6vw;
+  }
+
+  .sendToBox {
+    width: 33.5vw;
+    height: 14vw;
+    font-size: 1.5vw;
+    line-height: 1;
+    padding-left: 1.7vw;
+    padding-right: 1.7vw;
+    left: 1vw;
+  }
+
+  .sendToBox p {
+    line-height: 1.5;
+  }
+
+  .sendToBox a {
+    font-size: 2.2vw;
+  }
+
+  #man {
+    width: 16vw;
+    left: 32.5vw;
+  }
+
+  #woman {
+    width: 16vw;
+    right: 32.5vw;
+  }
+
+  .container {
+    padding-bottom: 42vw;
+  }
+
+  #lighterRedTextBg {
+    width: 90%;
+  }
+
+  #yellowTextBg {
+    width: 90%;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .hire {
+    width: 90.86vw;
+    height: 31.2vw;
+    padding-left: 4%;
+  }
+
+  .hireTitle {
+    font-size: 13vw;
+  }
+
+  .jobs {
+    margin-top: 0vw;
+    width: 90%;
+    height: 20.1vw;
+    align-self: center;
+    margin-left: unset;
+  }
+
+  .jobsTitle {
+    font-size: 7.2vw;
+  }
+
+  .reqBox {
+    width: 95%;
+    font-size: 3vw;
+    padding: 5vw 0vw 5vw 8vw;
+  }
+
+  .sendToBox {
+    margin-top: 12vw;
+    align-self: center;
+    position: static;
+    width: 80%;
+    height: 33vw;
+    font-size: 3vw;
+    line-height: 1.6;
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .sendToBox p {
+    line-height: 1.6;
+  }
+
+  .sendToBox a {
+    font-size: 4.4vw;
+  }
+
+  #man {
+    width: 24vw;
+    left: 24vw;
+  }
+
+  #woman {
+    width: 24vw;
+    right: 24vw;
+  }
+
+  .container {
+    padding-bottom: 49vw;
+  }
+
+  #lighterRedTextBg {
+    width: 95%;
+  }
+
+  #yellowTextBg {
+    width: 95%;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .hire {
+    width: 95.86vw;
+    height: 32.8vw;
+    padding-left: 2.5%;
+  }
+
+  .hireTitle {
+    font-size: 15vw;
+  }
+
+  .jobs {
+    margin-top: 0vw;
+    width: 95%;
+    height: 21.951vw;
+    align-self: center;
+    margin-left: unset;
+  }
+
+  .jobsTitle {
+    font-size: 8vw;
+  }
+
+  .reqBox {
+    width: 95%;
+    font-size: 4vw;
+    padding: 5vw 0vw 5vw 9vw;
+  }
+
+  .sendToBox {
+    margin-top: 12vw;
+    align-self: center;
+    position: static;
+    width: 90%;
+    height: 37vw;
+    font-size: 3.7vw;
+    line-height: 1.4;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .sendToBox p {
+    line-height: 1.5;
+  }
+
+  .sendToBox a {
+    font-size: 4.4vw;
+  }
+
+  #man {
+    width: 27vw;
+    left: 20vw;
+  }
+
+  #woman {
+    width: 27vw;
+    right: 20vw;
+  }
+
+  .container {
+    padding-bottom: 55vw;
+  }
+
+  #lighterRedTextBg {
+    width: 95%;
+  }
+
+  #yellowTextBg {
+    width: 95%;
+  }
+}
